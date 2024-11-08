@@ -1,0 +1,23 @@
+{
+  "name": "node-zstandard",
+  "version": "1.2.4",
+  "description": "Node.js interface to Zstandard (zstd)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "seed": "node decompress.js",
+    "decompress": "node server.js"
+  },
+  "keywords": [
+    "zstandard",
+    "zstd"
+  ],
+  "author": "TT Travels",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mongoose": "^8.1.2",
+    "node-zstandard": "^1.2.4",
+    "simple-zstd": "^1.4.2"
+  }
+}
